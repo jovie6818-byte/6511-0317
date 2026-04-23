@@ -1,0 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 強制隱藏捲動條 */
+  background-color: #f0f0f0;
+}
+
+canvas {
+  display: block; /* 防止畫布下方出現 4px 的間隙 */
+}
